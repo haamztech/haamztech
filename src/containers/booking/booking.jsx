@@ -69,6 +69,6 @@ export default Booking;
 
 const CalendlyHtml = () => {
   return (
-    <InlineWidget url="https://calendly.com/exetom2024/consultation-call" styles={{ height: '100%' }} />
+    <InlineWidget url="https://calendly.com/haamztech/consultation-call" styles={{ height: '100%' }} />
   );
 }

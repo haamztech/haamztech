@@ -1,8 +1,8 @@
 const keys = {
-    service_key: 'service_3282jp6',
-    template_id: 'template_cweij7g',
-    template_reply_id: 'template_48unnqy',
-    public_key: 'QDIacQWRVyMxCH_tZ'
+    service_key: 'service_4zxwqmr',
+    template_id: 'template_m7fkupr',
+    template_reply_id: 'template_bg4qcri',
+    public_key: 'h4zjzazoQkcRvxO4F'
 }
 
 export {

@@ -5,6 +5,7 @@ const OurProjects = lazy(() => import("../../components/landing/projects/project
 const Insights = lazy(() => import("../../components/landing/insights/insights"));
 const Testimonial = lazy(() => import("../../components/landing/testimonial/testimonial"));
 const Reviews = lazy(() => import("../../components/landing/reviews/reviews"));
+const Video = lazy(() => import("../../components/landing/video/video"));
 const Services = lazy(() => import("../../components/landing/services/services"));
 const Work = lazy(() => import("../../components/landing/work/work"));
 const Skills = lazy(() => import("../../components/landing/skills/skills"));
@@ -24,21 +25,27 @@ const Landing = () => {
                 <Hero />
             </Suspense>
 
-            {/* <Suspense fallback={<></>}>
+            <Suspense fallback={<></>}>
                 <Partners />
-            </Suspense> */}
+            </Suspense>
 
-            {/* <Section>
+            <Section>
                 <Suspense fallback={<></>}>
                     <ServeCard />
                 </Suspense>
-            </Section> */}
+            </Section>
 
-            {/* <Section>
+            <Section>
+                <Suspense fallback={<></>}>
+                    <Video />
+                </Suspense>
+            </Section>
+
+            <Section>
                 <Suspense fallback={<></>}>
                     <Services />
                 </Suspense>
-            </Section> */}
+            </Section>
 
             {/* <Section>
                 <Suspense fallback={<></>}>
@@ -46,41 +53,41 @@ const Landing = () => {
                 </Suspense>
             </Section> */}
 
-            {/* <Section>
+            <Section>
                 <Suspense fallback={<></>}>
                     <Insights />
                 </Suspense>
-            </Section> */}
+            </Section>
 
-            {/* <Section>
+            <Section>
                 <Suspense fallback={<></>}>
                     <Reviews />
                 </Suspense>
-            </Section> */}
+            </Section>
 
-            {/* <Section>
+            <Section>
                 <Suspense fallback={<></>}>
                     <Testimonial />
                 </Suspense>
-            </Section> */}
+            </Section>
 
-            {/* <Section>
+            <Section>
                 <Suspense fallback={<></>}>
                     <Work />
                 </Suspense>
-            </Section> */}
+            </Section>
 
-            {/* <Section>
+            <Section>
                 <Suspense fallback={<></>}>
                     <Skills />
                 </Suspense>
-            </Section> */}
+            </Section>
 
-            {/* <Section>
+            <Section>
                 <Suspense fallback={<></>}>
                     <Contact />
                 </Suspense>
-            </Section> */}
+            </Section>
 
             <Suspense fallback={<></>}>
                 <Footer />

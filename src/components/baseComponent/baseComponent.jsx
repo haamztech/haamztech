@@ -55,8 +55,12 @@ const BaseComponent = () => {
     }
     return (
         <div className={`w-full base-container overflow-x-hidden ${active ? 'overflow-hidden' : ''}`}>
-            <img src={LANDING_SIDES} alt="LANDING_SIDES_1" className='langind-side-1' />
-            <img src={LANDING_SIDES} alt="LANDING_SIDES_2" className='langind-side-2' />
+            {location.pathname === '/' && (
+                <>
+                    <img src={LANDING_SIDES} alt="LANDING_SIDES_1" className='langind-side-1' />
+                    <img src={LANDING_SIDES} alt="LANDING_SIDES_2" className='langind-side-2' />
+                </>
+            )}
             <Container>
                 <nav className="base-navbar">
                     <div className="base-inner-container">
@@ -77,7 +81,7 @@ const BaseComponent = () => {
                                             <div className="circle-1"></div>
                                             <div className="circle-2"></div>
                                         </div>
-                                        <div className="menu-bar"></div>
+                                        <div className="menu-bar" title='open menu'></div>
                                     </div>
                                 </div>
                             </div>

@@ -1,4 +1,11 @@
 #what-we-do {
+    position: relative;
+
+    .serve-card-bg {
+        position: absolute;
+        top: -200px;
+        left: 0;
+    }
 
     .roz-card {
         cursor: pointer;

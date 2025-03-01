@@ -1,6 +1,7 @@
 import React from 'react'
 import { data } from "./data";
 import Container from '../../container/container'
+import BGStyleo from "@assets/bg-styleo.webp";
 
 const ServeCard = () => {
     const colors = [
@@ -13,6 +14,7 @@ const ServeCard = () => {
     ];
     return (
         <div className="w-full" id="what-we-do">
+            <img src={BGStyleo} alt="" className='serve-card-bg' />
             <Container>
                 <div className="w-full">
                     <div className="text-2xl uppercase tracking-widest font-bold text-center mb-10 text-[#0b3f78]">

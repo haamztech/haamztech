@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaDribbble, FaLinkedinIn, FaTwitter, FaBehance } from "react-icons/fa";
-import LOGO from "@assets/footer-logo.png"
+import LOGO from "@assets/logo-main.png"
 import Container from '../../container/container';
 
 const Footer = () => {
@@ -27,7 +27,7 @@ const Footer = () => {
 
                         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
                             <div className="text-center sm:text-left">
-                                <p className="text-lg font-medium text-[#336396]">Reach Us</p>
+                                <p className="text-lg font-medium text-[#00BDFF]">Reach Us</p>
 
                                 <ul className="mt-8 space-y-4 text-sm">
                                     <li>
@@ -55,7 +55,7 @@ const Footer = () => {
                             </div>
 
                             <div className="text-center sm:text-left">
-                                <p className="text-lg font-medium text-[#336396]">More Services</p>
+                                <p className="text-lg font-medium text-[#00BDFF]">More Services</p>
 
                                 <ul className="mt-8 space-y-4 text-sm">
                                     <li>
@@ -79,7 +79,7 @@ const Footer = () => {
                             </div>
 
                             <div className="text-center sm:text-left">
-                                <p className="text-lg font-medium text-[#336396]">Contact Us</p>
+                                <p className="text-lg font-medium text-[#00BDFF]">Contact Us</p>
 
                                 <ul className="mt-8 space-y-4 text-sm">
                                     <li>
@@ -88,7 +88,7 @@ const Footer = () => {
                                         >
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
-                                                className="size-5 shrink-0 text-[#336396]"
+                                                className="size-5 shrink-0 text-[#00BDFF]"
                                                 fill="none"
                                                 viewBox="0 0 24 24"
                                                 stroke="currentColor"
@@ -111,7 +111,7 @@ const Footer = () => {
                                         >
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
-                                                className="size-5 shrink-0 text-[#336396]"
+                                                className="size-5 shrink-0 text-[#00BDFF]"
                                                 fill="none"
                                                 viewBox="0 0 24 24"
                                                 stroke="currentColor"
@@ -133,7 +133,7 @@ const Footer = () => {
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="size-5 shrink-0 text-[#336396]"
+                                            className="size-5 shrink-0 text-[#00BDFF]"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
