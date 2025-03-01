@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      {/* <Loader /> */}
+      <Loader />
       <Navigation />
     </>
   );
