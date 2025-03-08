@@ -124,7 +124,7 @@ const Footer = () => {
                                                 />
                                             </svg>
 
-                                            <span className="flex-1 text-[#eeeeee]">+ (447) 84 215-3349</span>
+                                            <span className="flex-1 text-[#eeeeee]">+1 (346) 526-2062</span>
                                         </span>
                                     </li>
 
@@ -152,7 +152,7 @@ const Footer = () => {
                                         </svg>
 
                                         <address className="-mt-0.5 flex-1 not-italic text-[#eeeeee]">
-                                            17a Shrubland Road, Banstead England, SM7 2ES
+                                            1600 Amphitheatre Parkway in Mountain View, California
                                         </address>
                                     </li>
                                 </ul>
@@ -166,19 +166,19 @@ const Footer = () => {
                     <div className="footer-bottom-container">
                         <div className='footer-bottom-title'>@{new Date().getFullYear()} Haamztech. All Rights Reserved</div>
                         <div className="socials">
-                            <a href="https://www.facebook.com/profile.php?id=61560426016099" className='social-icon fb'>
+                            <a href="https://www.facebook.com/profile.php?id=100076321747740" className='social-icon fb'>
                                 <FaFacebookF />
                             </a>
-                            <a href="https://www.instagram.com/exetom_inc/" className='social-icon ins'>
+                            <a href="https://www.instagram.com/haamz.tech" className='social-icon ins'>
                                 <FaInstagram />
                             </a>
-                            <a href="https://dribbble.com/exetom" className='social-icon dri'>
+                            <a href="https://dribbble.com/HaamzTech" className='social-icon dri'>
                                 <FaDribbble />
                             </a>
-                            <a href="https://www.behance.net/exetom" className='social-icon beh'>
+                            <a href="https://www.behance.net/haamztech" className='social-icon beh'>
                                 <FaBehance />
                             </a>
-                            <a href="https://www.linkedin.com/company/exetom" className='social-icon lin'>
+                            <a href="https://www.linkedin.com/company/haamztech/" className='social-icon lin'>
                                 <FaLinkedinIn />
                             </a>
                         </div>

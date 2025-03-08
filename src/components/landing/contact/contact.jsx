@@ -3,6 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { keys } from '../../../utils/keys';
 import { toast } from 'react-toastify';
+import BGStyleo from "@assets/bg-styleo.webp";
 
 const Contact = () => {
 
@@ -24,6 +25,7 @@ const Contact = () => {
 
     return (
         <div className='w-full' id="contact-sec">
+            <img src={BGStyleo} alt="" className='contact-card-bg' />
             <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
                 <div className="mb-4">
                     <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
@@ -77,7 +79,7 @@ const Contact = () => {
                                     <div className="ml-4 mb-4">
                                         <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900">Contact
                                         </h3>
-                                        <p className="text-gray-600 flex items-center gap-2">Mobile: + (447) 84 215-3349 <FaWhatsapp color='#25D366' size={20} /></p>
+                                        <p className="text-gray-600 flex items-center gap-2">Mobile: +1 (346) 526-2062 <FaWhatsapp color='#25D366' size={20} /></p>
                                         <p className="text-gray-600">Mail: info@haazmtech.com</p>
                                     </div>
                                 </li>

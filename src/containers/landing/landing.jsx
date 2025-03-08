@@ -1,7 +1,6 @@
 import React, { lazy, Suspense } from "react";
 const Hero = lazy(() => import('../../components/landing/hero/hero'));
 const Partners = lazy(() => import('../../components/landing/partners/partners'));
-const OurProjects = lazy(() => import("../../components/landing/projects/projects"));
 const Insights = lazy(() => import("../../components/landing/insights/insights"));
 const Testimonial = lazy(() => import("../../components/landing/testimonial/testimonial"));
 const Reviews = lazy(() => import("../../components/landing/reviews/reviews"));
@@ -46,12 +45,6 @@ const Landing = () => {
                     <Services />
                 </Suspense>
             </Section>
-
-            {/* <Section>
-                <Suspense fallback={<></>}>
-                    <OurProjects />
-                </Suspense>
-            </Section> */}
 
             <Section>
                 <Suspense fallback={<></>}>
